@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(135deg, #000, #444, #e2c52b);
+    background-size: 100%;
+    min-height: 1000px;
+    max-width: 95%;
+    margin: auto;
+    background-repeat:no-repeat;
+    color: white;
+}
+.content{
+    max-width: 900px;
+}
+.content .row{
+    height: 30em;
+
+}
+.top-banner{
+    color: white;
+    background-color: transparent;
+    padding: 10px 30px;
+    font-size: large;
+}
+.text{
+    text-align: center;
+}
+textarea{
+    height: 36px;
+}
+form .row{
+    margin: 15px 0px;
+}
+.login{
+    background: #ffffffaa;
+    padding: 20px 15px;
+    width: fit-content;
+    border-radius: 5px;
+    margin: auto;
+    text-align: center;
+}
+#employeeInfo{
+    margin: 15px;
+}
+.login h3{
+    margin: 5px 0px;
+}
+.login input{
+    margin: 15px auto;
+    width: 250px;
+}
+#request-heading{
+    text-align: center;
+}
+.createRequest input{
+    display: inline-block;
+    margin: 5px 10px 10px 0px;
+}
+#amount{
+    margin-right: 0px;
+}
+#submit-button{
+    width: 30%;
+}
+.submit-row{
+    padding-bottom: 10px;
+    border-bottom: 2px lightgrey solid
+}
+.manager-only{
+    display: none;
+}
+#logout{
+    position: absolute;
+    bottom: 10px;
+}

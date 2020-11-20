@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-control" content="No-Cache">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Proza+Libre&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/index.css">
+    <title>Expense Reimbursement System</title>
+</head>
+<body>
+    <div id="screen-wrapper">
+        <div class="top-banner">
+            <h1>TFNB</h1>
+        </div>
+        <div class="content container">    
+            <div class="row justify-content-center align-items-center">
+                <div class="col-6 text">
+                    <h1>
+                        <a href="./views/employeePortal.html">
+                            Welcome to the Employee Login for Reimbursements
+                        </a>
+                    </h1>
+                </div>
+                <div class="col-6">
+                    <form class="login" method="POST" action="/ExpenseReimbursement/myapi/session">
+                        <h3>Login Here</h3>
+                        <input id="username" name="username" class="form-control" placeholder="Username" required>
+                        <input id="password" name="password" class="form-control" type="password" placeholder="Password" required>
+                        <input id="submit-button" class="btn btn-primary" type="submit">
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+<script src="./scripts/index.js"></script>
+</html>

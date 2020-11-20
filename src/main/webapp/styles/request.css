@@ -1,0 +1,41 @@
+.title{
+    margin-bottom: 30px;
+}
+.request{
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #ffffffaa;
+    border-radius: 5px;
+}
+.row{
+    padding-bottom: 10px;
+}
+.dates{
+    margin-bottom: 15px;
+    padding-top: 10px;
+}
+.date-submitted{
+    text-align: right;
+}
+.date p{
+    font-size: 14px;
+    margin: 0px;
+}
+.approve-deny{
+    text-align: right;
+}
+.approve, .deny{
+    display: inline-block;
+}
+.btn{
+    width: 120px;
+}
+.modal-dialog{
+    max-width: 800px;
+}
+.modal-body{
+    text-align: center;
+}
+.modal-body img{
+    max-width: 765px;
+}

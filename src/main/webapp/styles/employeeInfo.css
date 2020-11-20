@@ -1,0 +1,11 @@
+.people{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.person{
+    padding: 10px;
+    margin: 10px;
+    background-color: #ffffffaa;
+    border-radius: 5px;
+}

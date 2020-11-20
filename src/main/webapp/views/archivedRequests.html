@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/request.css">
+    <title>Archived Requests</title>
+</head>
+<body>
+		<div class="top-banner">
+			<h1>
+				<a href="portal.html">TFNB</a>
+            </h1>
+        </div>
+        <div id="head" class="row align-items-center justify-content-around">
+            <h1 class="col-4 title">Archived Requests</h1>
+            <div class="col-4 request-by-employee">
+                <h3>Employees</h3>
+                <select class="employee-select" name="employees">
+                    <option value="All">All</option>
+                </select>
+            </div>   
+        </div>
+        <h2>Approved</h2>
+        <div id="approved"></div>
+        <h2>Denied</h2>
+        <div id="denied"></div>
+        <div id="modals"></div>
+</body>
+<script src="../scripts/archivedRequest.js"></script>
+</html>
